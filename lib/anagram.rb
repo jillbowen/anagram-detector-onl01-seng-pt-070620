@@ -11,7 +11,7 @@ class Anagram
       if word.split("").sort == @word.split("").sort
         word.split("").sort
       else
-        word.split("").sort.compact
+        word.split("").sort
       end
     end
   end
